@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-2 {
+  gap: .5rem;
+}
+
+.mt-2 {
+  margin-top: .5rem;
+}
