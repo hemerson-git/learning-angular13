@@ -6,6 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first-component.component.css']
 })
 export class FirstComponentComponent implements OnInit {
+  name = "Hemerson";
+  age = 25
+  job = 'Developer'
+  hobbies = ['Play Chess', 'Read', 'Play Guitar']
+  pet = {
+    name: 'Black',
+    age: 5,
+  }
+
   constructor() {}
 
   ngOnInit(): void {
