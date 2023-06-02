@@ -11,6 +11,9 @@
     <li *ngFor="let pet of pets">
       {{pet.type}} - {{pet.name}}
       <button (click)="showAge(pet)">Show age</button>
+      <button (click)="removeAnimal(pet)" type="button">
+        Remove Pet
+      </button>
     </li>
 
     <p *ngIf="animalDetails">
