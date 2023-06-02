@@ -8,6 +8,13 @@
   <h3>Pets: </h3>
 
   <ul class="list">
-    <li *ngFor="let pet of pets">{{pet.type}} - {{pet.name}}</li>
+    <li *ngFor="let pet of pets">
+      {{pet.type}} - {{pet.name}}
+      <button (click)="showAge(pet)">Show age</button>
+    </li>
+
+    <p *ngIf="animalDetails">
+      {{animalDetails}}
+    </p>
   </ul>
 </div>
