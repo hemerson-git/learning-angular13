@@ -7,6 +7,7 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { ConditionalRenderingComponent } from './components/conditional-rendering/conditional-rendering.component';
+import { EventsComponent } from './components/events/events.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ConditionalRenderingComponent } from './components/conditional-renderin
     FirstComponentComponent,
     ParentDataComponent,
     DirectivesComponent,
-    ConditionalRenderingComponent
+    ConditionalRenderingComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
