@@ -1,0 +1,16 @@
+<div class="angular-class">
+  <div *ngIf="canShow">
+    Showing
+  </div>
+
+  <div *ngIf="!canShow">
+    Not Showing
+  </div>
+
+  <h2 *ngIf="name === 'Hemerson'; else nameNotFound">My name is Hemerson</h2>
+
+  <h2 *ngIf="name !== 'Hemerson'; else nameNotFound">Your name is Hemerson</h2>
+  <ng-template #nameNotFound>
+    <h2>Your name is not Hemerson</h2>
+  </ng-template>
+</div>
